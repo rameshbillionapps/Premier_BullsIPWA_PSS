@@ -554,27 +554,25 @@ ssp.webdb.loadSettings = function () {
 
    
 
-        if (pageURL.includes("cs")) {
-            divContent += '<input type="text" autocomplete="https://cs.s-webapi.premierselect.com/sspweb" name="urldata" id="urldata" class="full-width" value="https://cs.s-webapi.premierselect.com/sspweb">';
-            
+        if (pageURL.includes("pss")) {
+            divContent += '<input type="text" autocomplete="https://pss-s-webapi-prod.azurewebsites.net/SSPweb" name="urldata" id="urldata" class="full-width" value="https://pss-s-webapi-prod.azurewebsites.net/SSPweb">';
         }
-        else if (pageURL.includes("pss")) {
-            divContent += '<input type="text" autocomplete="https://pss.s-webapi.premierselect.com/sspweb" name="urldata" id="urldata" class="full-width" value="https://pss.s-webapi.premierselect.com/sspweb">';
-            console.log("PageUrl :-", pageURL);
+        else if (pageURL.includes("cs")) {
+            divContent += '<input type="text" autocomplete="https://cs-s-webapi-prod.azurewebsites.net/SSPweb" name="urldata" id="urldata" class="full-width" value="https://cs-s-webapi-prod.azurewebsites.net/SSPweb">';
         }
         else if (pageURL.includes("mnss")) {
-            divContent += '<input type="text" autocomplete="https://mnss.s-webapi.premierselect.com/sspweb" name="urldata" id="urldata" class="full-width" value="https://mnss.s-webapi.premierselect.com/sspweb">';
+            divContent += '<input type="text" autocomplete="https://mnss-s-webapi-prod.azurewebsites.net/SSPweb" name="urldata" id="urldata" class="full-width" value="https://mnss-s-webapi-prod.azurewebsites.net/SSPweb">';
         }
         else if (pageURL.includes("ssc")) {
-            divContent += '<input type="text" autocomplete="https://ssc.s-webapi.premierselect.com/sspweb" name="urldata" id="urldata" class="full-width" value="https://ssc.s-webapi.premierselect.com/sspweb">';
-            //console.log("PageUrl :-", pageURL);
+            divContent += '<input type="text" autocomplete="https://ssc-s-webapi-prod.azurewebsites.net/SSPweb" name="urldata" id="urldata" class="full-width" value="https://ssc-s-webapi-prod.azurewebsites.net/SSPweb">';
         }
         else if (pageURL.includes("ssma")) {
-            divContent += '<input type="text" autocomplete="https://ssma.s-webapi.premierselect.com/sspweb" name="urldata" id="urldata" class="full-width" value="https://ssma.s-webapi.premierselect.com/sspweb">';
+            divContent += '<input type="text" autocomplete="https://ssma-s-webapi-prod.azurewebsites.net/SSPweb" name="urldata" id="urldata" class="full-width" value="https://ssma-s-webapi-prod.azurewebsites.net/SSPweb">';
         }
-        else {            
-            divContent += '<input type="text" autocomplete="https://ssp.selectsirepower.com/SSPweb" name="urldata" id="urldata" class="full-width" value="https://ssp.selectsirepower.com/SSPweb">';
-        }
+        //else {
+        //    divContent += '<input type="text" autocomplete="https://ssp.selectsirepower.com/SSPweb" name="urldata" id="urldata" class="full-width" value="https://ssp.selectsirepower.com/SSPweb">';
+        //    //  divContent += '<input type="text" autocomplete="http://localhost:55691/SSPweb" name="urldata" id="urldata" class="full-width" value="http://localhost:55691/SSPweb">';
+        //}
                   
 
         // divContent += '<input type="text" autocomplete="' + window.localStorage.getItem("ssp_autofillsearch") + '" name="urldata" id="urldata" class="full-width" value="' + window.localStorage.getItem("ssp_urldata") + '">';     /*JKS080818->4.03***Auto Fill Search switch*/
@@ -689,27 +687,25 @@ ssp.webdb.loadSettings = function () {
         divContent += '<label for="name">Data URL</label>';
 
 
-        if (pageURL.includes("cs")) {
-            divContent += '<input type="text" autocomplete="https://cs.s-webapi.premierselect.com/sspweb" name="urldata" id="urldata" class="full-width" value="https://cs.s-webapi.premierselect.com/sspweb">';
-
+        if (pageURL.includes("pss")) {
+            divContent += '<input type="text" autocomplete="https://pss-s-webapi-prod.azurewebsites.net/SSPweb" name="urldata" id="urldata" class="full-width" value="https://pss-s-webapi-prod.azurewebsites.net/SSPweb">';
         }
-        else if (pageURL.includes("pss")) {
-            divContent += '<input type="text" autocomplete="https://pss.s-webapi.premierselect.com/sspweb" name="urldata" id="urldata" class="full-width" value="https://pss.s-webapi.premierselect.com/sspweb">';
-            console.log("PageUrl :-", pageURL);
+        else if (pageURL.includes("cs")) {
+            divContent += '<input type="text" autocomplete="https://cs-s-webapi-prod.azurewebsites.net/SSPweb" name="urldata" id="urldata" class="full-width" value="https://cs-s-webapi-prod.azurewebsites.net/SSPweb">';
         }
         else if (pageURL.includes("mnss")) {
-            divContent += '<input type="text" autocomplete="https://mnss.s-webapi.premierselect.com/sspweb" name="urldata" id="urldata" class="full-width" value="https://mnss.s-webapi.premierselect.com/sspweb">';
+            divContent += '<input type="text" autocomplete="https://mnss-s-webapi-prod.azurewebsites.net/SSPweb" name="urldata" id="urldata" class="full-width" value="https://mnss-s-webapi-prod.azurewebsites.net/SSPweb">';
         }
         else if (pageURL.includes("ssc")) {
-            divContent += '<input type="text" autocomplete="https://ssc.s-webapi.premierselect.com/sspweb" name="urldata" id="urldata" class="full-width" value="https://ssc.s-webapi.premierselect.com/sspweb">';
-          //  console.log("PageUrl :-", pageURL);
+            divContent += '<input type="text" autocomplete="https://ssc-s-webapi-prod.azurewebsites.net/SSPweb" name="urldata" id="urldata" class="full-width" value="https://ssc-s-webapi-prod.azurewebsites.net/SSPweb">';
         }
         else if (pageURL.includes("ssma")) {
-            divContent += '<input type="text" autocomplete="https://ssma.s-webapi.premierselect.com/sspweb" name="urldata" id="urldata" class="full-width" value="https://ssma.s-webapi.premierselect.com/sspweb">';
+            divContent += '<input type="text" autocomplete="https://ssma-s-webapi-prod.azurewebsites.net/SSPweb" name="urldata" id="urldata" class="full-width" value="https://ssma-s-webapi-prod.azurewebsites.net/SSPweb">';
         }
-        else {
-            divContent += '<input type="text" autocomplete="https://ssp.selectsirepower.com/SSPweb" name="urldata" id="urldata" class="full-width" value="https://ssp.selectsirepower.com/SSPweb">';
-        }
+        //else {
+        //    divContent += '<input type="text" autocomplete="https://ssp.selectsirepower.com/SSPweb" name="urldata" id="urldata" class="full-width" value="https://ssp.selectsirepower.com/SSPweb">';
+        //    //  divContent += '<input type="text" autocomplete="http://localhost:55691/SSPweb" name="urldata" id="urldata" class="full-width" value="http://localhost:55691/SSPweb">';
+        //}
 
        
         divContent += '<input type="text" autocomplete="' + window.localStorage.getItem("ssp_autofillsearch") + '" name="urldata" id="urldata" class="full-width" value="' + window.localStorage.getItem("ssp_urldata") + '">';     /*JKS080818->4.03***Auto Fill Search switch*/
@@ -999,27 +995,25 @@ ssp.webdb.loadInitSettings = function () {
     divContent += '<label for="name">Data URL</label>';
 
     // Modified for initial settings
-    if (pageURL.includes("cs")) {
-        divContent += '<input type="text" autocomplete="https://cs.s-webapi.premierselect.com/sspweb" name="urldata" id="urldata" class="full-width" value="https://cs.s-webapi.premierselect.com/sspweb">';
-
+    if (pageURL.includes("pss")) {
+        divContent += '<input type="text" autocomplete="https://pss-s-webapi-prod.azurewebsites.net/SSPweb" name="urldata" id="urldata" class="full-width" value="https://pss-s-webapi-prod.azurewebsites.net/SSPweb">';
     }
-    else if (pageURL.includes("pss")) {
-        divContent += '<input type="text" autocomplete="https://pss.s-webapi.premierselect.com/sspweb" name="urldata" id="urldata" class="full-width" value="https://pss.s-webapi.premierselect.com/sspweb">';
-        console.log("PageUrl :-", pageURL);
+    else if (pageURL.includes("cs")) {
+        divContent += '<input type="text" autocomplete="https://cs-s-webapi-prod.azurewebsites.net/SSPweb" name="urldata" id="urldata" class="full-width" value="https://cs-s-webapi-prod.azurewebsites.net/SSPweb">';
     }
     else if (pageURL.includes("mnss")) {
-        divContent += '<input type="text" autocomplete="https://mnss.s-webapi.premierselect.com/sspweb" name="urldata" id="urldata" class="full-width" value="https://mnss.s-webapi.premierselect.com/sspweb">';
+        divContent += '<input type="text" autocomplete="https://mnss-s-webapi-prod.azurewebsites.net/SSPweb" name="urldata" id="urldata" class="full-width" value="https://mnss-s-webapi-prod.azurewebsites.net/SSPweb">';
     }
     else if (pageURL.includes("ssc")) {
-        divContent += '<input type="text" autocomplete="https://ssc.s-webapi.premierselect.com/sspweb" name="urldata" id="urldata" class="full-width" value="https://ssc.s-webapi.premierselect.com/sspweb">';
-       // console.log("PageUrl :-", pageURL);
+        divContent += '<input type="text" autocomplete="https://ssc-s-webapi-prod.azurewebsites.net/SSPweb" name="urldata" id="urldata" class="full-width" value="https://ssc-s-webapi-prod.azurewebsites.net/SSPweb">';
     }
     else if (pageURL.includes("ssma")) {
-        divContent += '<input type="text" autocomplete="https://ssma.s-webapi.premierselect.com/sspweb" name="urldata" id="urldata" class="full-width" value="https://ssma.s-webapi.premierselect.com/sspweb">';
+        divContent += '<input type="text" autocomplete="https://ssma-s-webapi-prod.azurewebsites.net/SSPweb" name="urldata" id="urldata" class="full-width" value="https://ssma-s-webapi-prod.azurewebsites.net/SSPweb">';
     }
-    else {
-        divContent += '<input type="text" autocomplete="https://ssp.selectsirepower.com/SSPweb" name="urldata" id="urldata" class="full-width" value="https://ssp.selectsirepower.com/SSPweb">';
-    }
+        //else {
+        //    divContent += '<input type="text" autocomplete="https://ssp.selectsirepower.com/SSPweb" name="urldata" id="urldata" class="full-width" value="https://ssp.selectsirepower.com/SSPweb">';
+        //    //  divContent += '<input type="text" autocomplete="http://localhost:55691/SSPweb" name="urldata" id="urldata" class="full-width" value="http://localhost:55691/SSPweb">';
+        //}
 
     //divContent += '<input type="text" autocomplete="' + window.localStorage.getItem("ssp_autofillsearch") + '" name="urldata" id="urldata" class="full-width" value="' + window.localStorage.getItem("ssp_urldata") + '">';     /*JKS080818->4.03***Auto Fill Search switch*/
     divContent += '</p>';
