@@ -1,6 +1,5 @@
 var CUSTPAGING = 25;
-//var sspversion = '4.70pwa';
-var sspversion = '4.71pwa';
+var sspversion = '5.00pwa';
 
 /*JKS100219***4.24pwa->CHANGED save sync file name format.  FIXED app Backups.  CHANGED app name and associated functions from SSP to Bulls-I.*/
 /*JKS092519***4.23pwa->FIXED save sync items to file button.  CS ONLY - REMOVED "undefined" field from Customer Order PDF.***
